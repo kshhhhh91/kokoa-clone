@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to Kokoa Talk</title>
+    <title>Friends - Kokoa Talk</title>
     <!--icon script-->
     <script
       src="https://kit.fontawesome.com/40a2d4bd7e.js"
@@ -28,24 +28,29 @@
       </div>
     </div>
 
-    <header class="welcome-header">
-      <h1 class="welcome-header__title">Welcome to KokoaTalk</h1>
-      <p class="welcome-header__text">
-        If you have a Kokoa Account,<br />log in with your email or phone
-        number.
-      </p>
-    </header>
-
-    <form action="friends.html" method="get" id="login-form">
-      <input
-        name="username"
-        type="text"
-        placeholder="Email or phone number"
-        required
-      />
-      <input name="password" type="password" placeholder="Password" required />
-      <input type="submit" value="Log In" />
-      <a href="#">Find Kokoa Account or Password</a>
-    </form>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav_link" href="friends.html"
+            ><i class="fa-solid fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav_link" href="#"
+            ><i class="fa-regular fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav_link" href="#"
+            ><i class="fa-solid fa-magnifying-glass fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav_link" href="#"
+            ><i class="fa-solid fa-ellipsis fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
   </body>
 </html>
