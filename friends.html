@@ -28,26 +28,81 @@
       </div>
     </div>
 
+    <header class="screen-header">
+      <h1 class="screen-header__title">Friends</h1>
+      <div class="screen-header__icons">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fa-solid fa-music fa-lg"></i></span>
+        <span><i class="fa-solid fa-cog fa-lg"></i></span>
+      </div>
+    </header>
+
+    <a href="" id="friends-display-link">
+      <i class="fa-solid fa-info-circle"></i>&nbsp;Friends' Names Display &nbsp;
+      <i class="fa-solid fa-chevron-right fa-xs"></i
+    ></a>
+
+    <main class="friends-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="https://avatars.githubusercontent.com/u/96896676"
+            class="user-component__avatar user-component__avatar--xl"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">KSH</h4>
+            <!-- <h6 class="user-component__subtitle">아무거나</h6> -->
+          </div>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span>Channel</span>
+          <i class="fa-solid fa-chevron-up fa-xs"></i>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://play-lh.googleusercontent.com/cf3DwPLbS8Z55sDvUSTQ6PL1goPdm8KbZ81g4TEUAaeUh5LDhkzdjxKQ2RX6BGpv0x4"
+              class="user-component__avatar user-component-sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Channel
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span>2</span>
+            <i class="fa-solid fa-chevron-right fa-xs"></i>
+          </div>
+        </div>
+      </div>
+    </main>
+
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
-          <a class="nav_link" href="friends.html"
+          <a class="nav__link" href="friends.html"
             ><i class="fa-solid fa-user fa-2x"></i
           ></a>
         </li>
         <li class="nav__btn">
-          <a class="nav_link" href="#"
-            ><i class="fa-regular fa-comment fa-2x"></i
+          <a class="nav__link" href="#">
+            <span class="nav__notification">1</span>
+            <i class="fa-regular fa-comment fa-2x"></i
           ></a>
         </li>
         <li class="nav__btn">
-          <a class="nav_link" href="#"
+          <a class="nav__link" href="#"
             ><i class="fa-solid fa-magnifying-glass fa-2x"></i
           ></a>
         </li>
         <li class="nav__btn">
-          <a class="nav_link" href="#"
-            ><i class="fa-solid fa-ellipsis fa-2x"></i
+          <a class="nav__link" href="#"
+            ><div class="nav__dot"></div>
+            <i class="fa-solid fa-ellipsis fa-2x"></i
           ></a>
         </li>
       </ul>
