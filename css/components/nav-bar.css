@@ -5,7 +5,7 @@
   background-color: #f9f9fa;
   padding: 20px 50px;
   box-sizing: border-box;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: var(--main-border);
 }
 
 .nav__list {
@@ -19,26 +19,12 @@
 }
 
 .nav__notification {
-  background-color: tomato;
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-weight: 300;
   position: absolute;
   left: 18px;
   bottom: 20px;
 }
 
 .nav__dot {
-  background-color: tomato;
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  position: absolute;
   left: 95%;
   top: -50%;
 }
