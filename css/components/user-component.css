@@ -25,6 +25,8 @@
   margin-top: 8px;
   font-size: 17px;
   color: var(--gray-color);
+  display: flex;
+  align-items: center;
 }
 
 .user-component__avatar--xl {

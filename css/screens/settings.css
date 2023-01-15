@@ -1,0 +1,27 @@
+.settings__setting {
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.settings__setting i {
+  margin-right: 20px;
+  font-size: 22px;
+  opacity: 0.8;
+}
+
+.settings__setting-column:last-child {
+  opacity: 0.5;
+  font-size: 19px;
+}
+.noborder {
+  border-bottom: none;
+}
+.center-borderbox {
+  padding-bottom: 20px;
+  border-bottom: var(--main-border);
+  margin: 0 -25px 20px -25px;
+}

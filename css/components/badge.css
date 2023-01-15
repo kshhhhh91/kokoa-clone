@@ -17,3 +17,15 @@
   border-radius: 50%;
   position: absolute;
 }
+
+.badge__white {
+  border: 2px solid tomato;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: tomato;
+  font-weight: 300;
+}
